@@ -35,5 +35,5 @@ if st.button("University Admission Prediction"):
     result= clf.predict(np.array([[GRE,TOEFL,University,SOP,LOR,CGPA,Research]]))
     st.text(result[0])
     
-st.markdown("Developed  at Dhruvam")
+st.markdown("Developed by Sagar")
                   
